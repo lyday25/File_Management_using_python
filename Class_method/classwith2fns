@@ -1,0 +1,17 @@
+class Person:
+  def __init__(self, fname, lname, email):
+    self.firstname = fname
+    self.lastname = lname
+    self.emailaddress = email
+
+  def printname(self):
+    print(self.firstname, self.lastname)
+  
+  def findemail(self):
+    print(self.emailaddress)
+
+#Use the Person class to create an object, and then execute the printname method:
+
+x = Person("Bisi", "Williams", "fg@email.com")
+x.printname()
+x.findemail()
